@@ -1,9 +1,9 @@
 require 'test_helper'
 
 class StaticPagesControllerTest < ActionController::TestCase
-   def setup
-     @base_title = "Ruby on Rails Tutorial Sample App"
-   end
+  # def setup
+  #   @base_title = "Ruby on Rails Tutorial Sample Ap"
+  # end
 
   test "should get home" do
     get :home
